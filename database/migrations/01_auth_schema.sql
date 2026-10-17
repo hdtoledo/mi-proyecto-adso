@@ -13,3 +13,4 @@ CREATE TABLE users (
     -- Restricción de dominio: solo roles autorizados
     CONSTRAINT chk_users_role CHECK (role IN ('admin', 'user'))
 );
+
